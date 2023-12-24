@@ -18,3 +18,4 @@ ad61d27e-688b-e2a5-f352-441b8f8454da
 00fd0756-43ac-f9be-0493-8dadda65ff81
 this would be still alive song from portal each clip of the song is 17.5 seconds long
 Several thanks to LiamHoffen for QA interview.
+![image](https://github.com/Dimitrovich702/Dynamic-Music-Player-SL/assets/151694954/964c5efb-9016-481e-a186-e82fd67be9b5)
