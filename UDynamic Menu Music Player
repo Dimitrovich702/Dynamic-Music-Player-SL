@@ -213,6 +213,7 @@ default
 {
     state_entry()
     {
+        llSetSoundQueueing(TRUE);
         Initialize();
     }
 
