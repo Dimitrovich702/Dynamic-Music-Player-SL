@@ -2,6 +2,7 @@ this will play sound clips from a notecard and it will sound properly no matter 
 under MIT license OpenSource you can use it to create and sell your own products.
 you cant resell the script as it is or without futher strong modifications.
 
+One thousand people has learn how to upload music and create their own instruments.
 Create a script copy paste the Dynamic Music Player and
 to use it drop a notecard with your song uuids including the length of the clips. 
 Example:
