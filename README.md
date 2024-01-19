@@ -46,7 +46,7 @@ ad61d27e-688b-e2a5-f352-441b8f8454da
 
 There are a few additional features and improvements planned for the future:
 
-- New Fix "hacks" working in no-script places aswell
+- New Fix "hacks" working in no-script places aswell 👍 👍 👍
 - Add loop songs function
 - Add randomizer of channels
 - Implement a Bigger LLdialog menu
