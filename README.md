@@ -46,8 +46,10 @@ ad61d27e-688b-e2a5-f352-441b8f8454da
 
 There are a few additional features and improvements planned for the future:
 
-- Fix "hacks" that currently only work in no-script places
-- 
+- New Fix "hacks" working in no-script places aswell
+- Add loop songs function
+- Add randomizer of channels
+- Implement a Bigger LLdialog menu
 
 ## License
 
@@ -59,4 +61,3 @@ you cant resell the script as it is or without futher strong modifications.
 #
 One thousand people has learn how to upload music and create their own instruments.
 Create a script copy paste the Dynamic Music Player and
-to use it drop a notecard with your song uuids including the length of the clips. 
