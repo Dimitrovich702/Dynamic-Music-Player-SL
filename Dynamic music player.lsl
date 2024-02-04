@@ -38,7 +38,8 @@ key silence = NULL_KEY;
 Initialize()
 {
     llSetText("", <1,1,1>, 1.0);
-   
+                  CHAN = llFloor(llFrand(1000000) - 100000);
+// dynamic chan 
     llListen(CHAN, "", NULL_KEY, "");
 
     playing = "";
