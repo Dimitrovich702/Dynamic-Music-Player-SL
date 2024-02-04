@@ -1,7 +1,6 @@
 integer DEBUG = FALSE;
 float INTERVAL = 3 ;
 
-//float INTERVAL =  llGetNotecardLine/( Name, pota );
 float V = 6.0;
 integer pota = 0;
 integer CHAN = -81412;
@@ -37,7 +36,8 @@ key silence = NULL_KEY;
 Initialize()
 {
     llSetText("", <1,1,1>, 1.0);
-   
+               CHAN = llFloor(llFrand(1000000) - 100000);
+
     llListen(CHAN, "", NULL_KEY, "");
 
     playing = "";
@@ -266,6 +266,8 @@ default
     touch_start(integer touchNumber)
     {
         if(DEBUG) llOwnerSay("touch_start");
+            //        CHAN = llFloor(llFrand(1000000) - 100000);
+
         if(inti)
         {
             llOwnerSay("Busy loading songs, please wait a moment and try again...");
