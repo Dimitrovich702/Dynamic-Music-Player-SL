@@ -48,6 +48,7 @@ There are a few additional features and improvements planned for the future:
 
 - New Fix "hacks" working in no-script places aswell 👍 👍 👍 31/12/23
 - Add loop songs function
+- Add particles on start (beauty)👍 👍 👍 fixed 06/02/24
 - Add randomizer of channels 👍 👍 👍 fixed 04/02/24
 - Implement a Bigger LLdialog menu
 
