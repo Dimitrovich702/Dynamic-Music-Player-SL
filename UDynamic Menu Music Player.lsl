@@ -37,7 +37,7 @@ Initialize()
 {
 
 
-    llSetText("", <1,1,1>, 1.0);
+    llSetText( "" , <1,1,1>, 1.0);
                CHAN = llFloor(llFrand(1000000) - 100000);
 
     llListen(CHAN, "", NULL_KEY, "");
@@ -156,6 +156,7 @@ doPrevSet()
 LoadSong()
 {
     if(DEBUG) llOwnerSay("LoadSong");
+    llSetText("Playing "+ Name, <1,1,1>, 1.0);
 
     llOwnerSay( "Loading: "+ Name);
        llParticleSystem([ 
@@ -324,6 +325,8 @@ default
         }
         else if (llList2String(testFind,0) == "Stop")
         {
+                llSetText(" ", <1,1,1>, 1.0);
+
             StopSong();
         }
         else if ((integer)message > 0 && (integer)message < 256)
@@ -355,6 +358,7 @@ default
         else
         {
             llOwnerSay("Finished: "+Name);
+    llSetText(" ", <1,1,1>, 1.0);
 
             llStopSound();
 
