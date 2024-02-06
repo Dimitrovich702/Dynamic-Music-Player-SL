@@ -46,6 +46,8 @@ ad61d27e-688b-e2a5-f352-441b8f8454da
 
 There are a few additional features and improvements planned for the future:
 
+- Needs song time calculation count time 
+- Added llsettext for playing or stopping songs 👍 👍 👍 07/02/24
 - New Fix "hacks" working in no-script places aswell 👍 👍 👍 31/12/23
 - Add loop songs function
 - Add particles on start (beauty)👍 👍 👍 fixed 06/02/24
