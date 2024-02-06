@@ -35,6 +35,8 @@ key silence = NULL_KEY;
 
 Initialize()
 {
+
+
     llSetText("", <1,1,1>, 1.0);
                CHAN = llFloor(llFrand(1000000) - 100000);
 
@@ -156,7 +158,24 @@ LoadSong()
     if(DEBUG) llOwnerSay("LoadSong");
 
     llOwnerSay( "Loading: "+ Name);
-
+       llParticleSystem([ 
+         PSYS_PART_FLAGS, 259,
+         PSYS_SRC_PATTERN, 2,
+        PSYS_SRC_BURST_RADIUS, 1.000000,
+    PSYS_PART_START_COLOR, <1.00000, 1.00000, 1.00000>,
+      PSYS_PART_END_COLOR, <1.00000, 1.00000, 1.00000>,
+          PSYS_PART_START_ALPHA, 1.000000,
+           PSYS_PART_END_ALPHA,1.000000, 
+          PSYS_PART_START_SCALE, <0.20000, 0.20000, 0.00000>,
+           PSYS_PART_END_SCALE, <0.010000, 0.010000, 0.00000>,
+        PSYS_SRC_MAX_AGE, 0.000000,
+        PSYS_PART_MAX_AGE, 0.200000,
+       PSYS_SRC_TEXTURE, "",
+     PSYS_SRC_BURST_RATE, 0.100000,
+          PSYS_SRC_BURST_PART_COUNT, 9999,
+        PSYS_SRC_BURST_SPEED_MIN, 0.100000,
+           PSYS_SRC_BURST_SPEED_MAX, 0.50000
+  ]); 
     INTERVAL = 0;
 
     songTrackCnt = 0;
@@ -171,6 +190,7 @@ PlaySong()
     playing = Name;
 
     Curl = 0;
+  llParticleSystem([]);
 
     llOwnerSay("Playing: "+ Name);
 
