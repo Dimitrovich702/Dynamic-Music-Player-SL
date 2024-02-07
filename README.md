@@ -63,9 +63,9 @@ under MIT license OpenSource you can use it to create and sell your own products
 you cant resell the script as it is or without futher strong modifications.
 #
 One thousand people has learn how to upload music and create their own instruments.
-Create a script copy paste the Dynamic Music Player and
+Create a script copy paste the Dynamic Music Player and enjoy
 
 
-- This people is against a freebie mewsic player " let them root in hell " 
+- This people is against a freebie mewsic player " let them root in hell " yes dantia uses my coding and is shy to admit 
 
 https://media.discordapp.net/attachments/970364715475824720/1204696013651320852/image.png?ex=65d5ab97&is=65c33697&hm=f0f40c2bebcbaa7cf84b79518ca86bdb9266ffdad015bb1aab5dee4fbf816737&=&format=webp&quality=lossless&width=995&height=628 
