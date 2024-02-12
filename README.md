@@ -49,10 +49,10 @@ There are a few additional features and improvements planned for the future:
 - Needs song time calculation count time 
 - Added llsettext for playing or stopping songs 👍 👍 👍 07/02/24
 - New Fix "hacks" working in no-script places aswell 👍 👍 👍 31/12/23
-- Add loop songs function
+- Add loop/play all songs function
 - Add particles on start (beauty)👍 👍 👍 fixed 06/02/24
 - Add randomizer of channels 👍 👍 👍 fixed 04/02/24
-- Implement a Bigger LLdialog menu
+- Implement a Bigger LLdialog menu  👍 👍 👍 12/02/24 it was there actually
 
 ## License
 
