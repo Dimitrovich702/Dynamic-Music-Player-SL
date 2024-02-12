@@ -1,7 +1,7 @@
 integer DEBUG = FALSE;
 float INTERVAL = 3 ;
 
-float V = 3.0;
+float V = 6.0;
 integer pota = 0;
 integer CHAN = -81412;
 integer ASSET = 9;
@@ -79,7 +79,7 @@ curSongs()
     }
 
     integer i;
-    DirSound = "\n \n ";
+    DirSound = "\n \n";
 
     if (curSongOffset >= totalSongs)
     {
@@ -96,13 +96,13 @@ curSongs()
     {
         if (SoundID == i)
         {
-            DirSound += "*";
+            DirSound += "♦";
         }
         else
         {
-            DirSound += " ";
+            DirSound += "♢";
         }
-        DirSound += (string) (i + 1) + ") ";
+        DirSound +=  " │ " + (string) (i + 1) + " "  ;
         DirSound += llList2String(Names, i);
         DirSound += "\n";
 
