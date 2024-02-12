@@ -1,10 +1,10 @@
 integer DEBUG = FALSE;
 float INTERVAL = 3 ;
 
-float V = 6.0;
+float V = 3.0;
 integer pota = 0;
 integer CHAN = -81412;
-integer ASSET = 6;
+integer ASSET = 9;
 
 integer trackCnt = 0;
 integer inti = TRUE;
@@ -37,7 +37,7 @@ Initialize()
 {
 
 
-    llSetText( "" , <1,1,1>, 1.0);
+    llSetText("", <1,1,1>, 1.0);
                CHAN = llFloor(llFrand(1000000) - 100000);
 
     llListen(CHAN, "", NULL_KEY, "");
@@ -45,7 +45,7 @@ Initialize()
     playing = "";
     inti = TRUE;
     Curl = 1;
-    curSongEnd = 5;
+    curSongEnd = 8;
     curSongOffset = 0;
 
     totalSongs = llGetInventoryNumber(INVENTORY_NOTECARD);
@@ -79,7 +79,7 @@ curSongs()
     }
 
     integer i;
-    DirSound = "";
+    DirSound = "12";
 
     if (curSongOffset >= totalSongs)
     {
@@ -156,7 +156,6 @@ doPrevSet()
 LoadSong()
 {
     if(DEBUG) llOwnerSay("LoadSong");
-    llSetText("Playing "+ Name, <1,1,1>, 1.0);
 
     llOwnerSay( "Loading: "+ Name);
        llParticleSystem([ 
@@ -325,8 +324,6 @@ default
         }
         else if (llList2String(testFind,0) == "Stop")
         {
-                llSetText(" ", <1,1,1>, 1.0);
-
             StopSong();
         }
         else if ((integer)message > 0 && (integer)message < 256)
@@ -358,7 +355,6 @@ default
         else
         {
             llOwnerSay("Finished: "+Name);
-    llSetText(" ", <1,1,1>, 1.0);
 
             llStopSound();
 
