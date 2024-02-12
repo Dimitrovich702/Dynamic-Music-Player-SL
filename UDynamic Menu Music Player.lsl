@@ -15,7 +15,7 @@ integer songTrackCnt = 0;
 integer lineNumber;
 integer curSongOffset = 0;
 integer totalSongs = 0;
-integer curSongEnd = 5;
+integer curSongEnd = 8;
 integer NotecardLine = 0;
 
 string  DirSound = "";
