@@ -6,7 +6,7 @@ float INTERVAL = 20 ;
 float V = 1.0;
 integer pota = 0;
 integer CHAN = -392412;
-integer ASSET = 6;
+integer ASSET = 12;
 
 integer trackCnt = 0;
 integer inti = TRUE;
@@ -17,7 +17,7 @@ integer songTrackCnt = 0;
 integer lineNumber;
 integer curSongOffset = 0;
 integer totalSongs = 0;
-integer curSongEnd = 5;
+integer curSongEnd = 8;
 integer NotecardLine = 0;
 
 string  DirSound = "";
@@ -45,7 +45,7 @@ Initialize()
     playing = "";
     inti = TRUE;
     Curl = 1;
-    curSongEnd = 5;
+    curSongEnd = 8;
     curSongOffset = 0;
 
     totalSongs = llGetInventoryNumber(INVENTORY_NOTECARD);
