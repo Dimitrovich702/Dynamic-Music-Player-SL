@@ -53,6 +53,7 @@ There are a few additional features and improvements planned for the future:
 - Add particles on start (beauty)👍 👍 👍 fixed 06/02/24
 - Add randomizer of channels 👍 👍 👍 fixed 04/02/24
 - Implement a Bigger LLdialog menu  👍 👍 👍 12/02/24 it was there actually
+- Create sorting list of categories instead of exhaustive paging as neppingway described
 
 ## License
 
