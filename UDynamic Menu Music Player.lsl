@@ -79,7 +79,7 @@ curSongs()
     }
 
     integer i;
-    DirSound = "12";
+    DirSound = "\n \n ";
 
     if (curSongOffset >= totalSongs)
     {
