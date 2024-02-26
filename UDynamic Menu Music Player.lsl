@@ -197,7 +197,7 @@ PlaySong()
 
     llPlaySound(llList2Key(Musicuuids, Curl++), V);
     llPreloadSound( llList2Key(Musicuuids, Curl) );
-    llSetTimerEvent(INTERVAL-1.0);
+    llSetTimerEvent(INTERVAL-0.05);
 }
 
 
