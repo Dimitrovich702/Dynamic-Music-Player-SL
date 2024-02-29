@@ -60,8 +60,7 @@ There are a few additional features and improvements planned for the future:
 This project is licensed under the MIT License. You are free to use it to create and sell your own products, but the script itself cannot be resold without further strong modifications.
 
 ![image](https://github.com/Dimitrovich702/Dynamic-Music-Player-SL/assets/151694954/964c5efb-9016-481e-a186-e82fd67be9b5)
-under MIT license OpenSource you can use it to create and sell your own products.
-you cant resell the script as it is or without futher strong modifications.
+
 #
 One thousand people has learn how to upload music and create their own instruments.
 Create a script copy paste the Dynamic Music Player and enjoy
