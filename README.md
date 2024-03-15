@@ -38,9 +38,9 @@ ad61d27e-688b-e2a5-f352-441b8f8454da
 
 ## Credits
 
-- Thanks to LiamHoffen for the QA interview
+- Special thanks to Liam Hoffen For debugging, Fixing the bean, fighting and taming the dragon of 7 heads!
 - Thanks to Bleuhazenfurfle for implementing llQueueSound
-- Special thanks to Qie Niangao for the victory declaration
+- Thanks to Qie Niangao for the victory declaration
 
 ## Next Steps
 
