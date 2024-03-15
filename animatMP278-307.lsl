@@ -7,8 +7,8 @@ float INTERVAL = 3 ;
 float V = 6.0;
 integer pota = 0;
 integer CHAN = -81412;
-integer ASSET = 12;
-
+integer ASSET = 9;
+// the pagination is assets
 integer listener;
 // integer trackCnt = 0;
 // integer LINK_NUMBER = 0;
