@@ -75,6 +75,8 @@ string CalcTime(integer seconds)
 RenderDisplay(string JSON)
 {    
     // play status?
+    string type = llJsonGetValue(JSON, [ "type"]);
+    
     if(llJsonGetValue(JSON, ["type"]) == "playing")
     {
         // load & errors gets priority
@@ -116,7 +118,7 @@ RenderDisplay(string JSON)
     if(llJsonGetValue(JSON, ["type"]) == "loading")
     {
         // reserve priority
-        priorityTag = llGetUnixTime() + 3;
+        priorityTag = llGetUnixTime(); // + 3;
         
         // build display
         float tmp_percent = (float)llJsonGetValue(JSON, ["current"]) / (float)llJsonGetValue(JSON, ["end"]);
@@ -156,9 +158,15 @@ default
         if(llJsonGetValue(link_msg, ["target"]) == "DISPLAY")
         {
             // display?
-            if(llJsonGetValue(link_msg, ["action"]) == "display") { RenderDisplay(link_msg); }
+            if(llJsonGetValue(link_msg, ["action"]) == "display") 
+            {
+                RenderDisplay(link_msg); 
+            }
             // apply style?
-            if(llJsonGetValue(link_msg, ["action"]) == "apply") { UpdateDisplay(link_msg); };
+            else if(llJsonGetValue(link_msg, ["action"]) == "apply") 
+            { 
+                UpdateDisplay(link_msg); 
+            }
         }
     }
 }
