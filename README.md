@@ -65,5 +65,6 @@ This project is licensed under the MIT License. You are free to use it to create
 One thousand people has learn how to upload music and create their own instruments.
 Create a script copy paste the Dynamic Music Player and enjoy
 
-
-
+#
+so long donated 160~ USD 
+https://www.paypal.com/paypalme/DeathVortexDV
