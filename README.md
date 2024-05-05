@@ -66,5 +66,5 @@ One thousand people has learn how to upload music and create their own instrumen
 Create a script copy paste the Dynamic Music Player and enjoy
 
 #
-so long donated 560~ USD 
+so long donated 568.1~ USD 
 https://www.paypal.com/paypalme/DeathVortexDV
