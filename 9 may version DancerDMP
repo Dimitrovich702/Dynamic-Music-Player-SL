@@ -3,9 +3,9 @@ string animName = "lute animation";
 list Animations = [
 "Splits Twerk",
 "twerk team",
-"animname"
+"lolz twerk"
 ];
-// 
+
 float INTERVAL = 3 ;
 
 //float INTERVAL =  llGetNotecardLine/( Name, pota );
@@ -533,11 +533,12 @@ default
         Debug("touch_start");
 /// BEGIN -- added by Darleene
         // this fix tiny bug: not everything load properly when someoneone push a lot of notecards too quickly in the object...
-        ReadSongListNotecards();
+     //   ReadSongListNotecards();
+     // NOTE THIS CREATED A HEAP BUFFER OVERFLOW FIXED 11/05/24
 /// END -- added by darleene
 
         curSongs();
-        StartAnimation(animName);
+       // StartAnimation(animName);
 
         ShowDialog(llDetectedKey(0));
     }
