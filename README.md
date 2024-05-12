@@ -17,7 +17,7 @@ This project is a script for a dynamic music player in Second Life. It allows yo
 3. Enjoy the synchronized playback of your music clips!
 
 ## Notecard Format
-
+Notecards no longer need format in the newer versions cause of the formalization.
 The notecard should follow the float length of the clip on the first line, followed by the UUIDs of the songs. Each line represents a separate clip.
 
 Example:
@@ -46,13 +46,14 @@ ad61d27e-688b-e2a5-f352-441b8f8454da
 
 There are a few additional features and improvements planned for the future:
 
-- Needs song time calculation count time 
+- Needs song time calculation count time 👍 👍 👍 11/04/24
 - Added llsettext for playing or stopping songs 👍 👍 👍 07/02/24
 - New Fix "hacks" working in no-script places aswell 👍 👍 👍 31/12/23
 - Add loop/play all songs function
 - Add particles on start (beauty)👍 👍 👍 fixed 06/02/24
 - Add randomizer of channels 👍 👍 👍 fixed 04/02/24
 - Implement a Bigger LLdialog menu  👍 👍 👍 12/02/24 it was there actually
+- idk the bug and that notecard justify.. 👍 👍 👍 09/05/24
 - Create sorting list of categories instead of exhaustive paging as neppingway described
 
 ## License
