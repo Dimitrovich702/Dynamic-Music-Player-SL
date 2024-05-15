@@ -3,7 +3,7 @@ string animName = "lute animation";
 float INTERVAL = 3 ;
 
 //float INTERVAL =  llGetNotecardLine/( Name, pota );
-float V = 6.0;
+float V = 1.0;
 integer pota = 0;
 integer CHAN = -81412;
 integer ASSET = 6;
@@ -301,7 +301,7 @@ curSongs()
         but += (string)(i + 1);
     }
 }
-
+// remember but is the list of buttons 
 doNextSet()
 {
     curSongOffset += ASSET;
@@ -558,15 +558,21 @@ default
         }
         else if (testFind == VOL_U_MSG)
     {
-      if (V != 1) V=V+0.05;
+      if (V != 1) V=V+0.1;
       llAdjustSoundVolume(V);
    
       llSetLinkPrimitiveParamsFast(2, [PRIM_DESC, (string)V]);
+llSay(0, " Volume " +(string)V);
+            ShowDialog(id);
+
     } else if (testFind == VOL_D_MSG)
     {
-      if (V >= 0) V=V-0.05;
+      if (V >= 0) V=V-0.1;
       llAdjustSoundVolume(V);
       llSetLinkPrimitiveParamsFast(2, [PRIM_DESC, (string)V]);
+llSay(0, " Volume " +(string)V);
+            ShowDialog(id);
+
     } else if (testFind == RANDO_MSG)
     {
       SoundID = (integer)llFrand(llGetListLength(Names));
