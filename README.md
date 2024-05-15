@@ -53,7 +53,7 @@ There are a few additional features and improvements planned for the future:
 - Added llsettext for playing or stopping songs 👍 👍 👍 07/02/24
 - New Fix "hacks" working in no-script places aswell 👍 👍 👍 31/12/23
 - Add loop/play all songs function almost 15/05/24 ~
-- Created vanillas buttons sound controler and random play
+- Created vanillas buttons sound controler and random play  👍 👍 👍  15/05/24
 - In process "hold" for public private
 - Add particles on start (beauty)👍 👍 👍 fixed 06/02/24
 - Add randomizer of channels 👍 👍 👍 fixed 04/02/24
