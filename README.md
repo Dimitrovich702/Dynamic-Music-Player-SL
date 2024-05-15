@@ -63,7 +63,7 @@ There are a few additional features and improvements planned for the future:
 
 ## License
 
-This project is licensed under the MIT License. You are free to use it to create and sell your own products, but the script itself cannot be resold without further strong modifications.
+This project is licensed under the MIT License. You are free to use it to create and sell your own products, but the script itself cannot be resold.
 
 ![image](https://github.com/Dimitrovich702/Dynamic-Music-Player-SL/assets/151694954/964c5efb-9016-481e-a186-e82fd67be9b5)
 
