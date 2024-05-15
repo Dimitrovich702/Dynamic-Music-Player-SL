@@ -5,7 +5,7 @@ This project is a script for a dynamic music player in Second Life. It allows yo
 
 ## Features
 
-- Plays sound clips from a notecard
+- Plays sound clips from several notecards
 - Supports varying clip lengths specified in the notecard
 - Can be used to create and sell your own products under the MIT license
 - Reselling the script without modification is not allowed
@@ -41,6 +41,9 @@ ad61d27e-688b-e2a5-f352-441b8f8454da
 - Special thanks to Liam Hoffen For debugging, Fixing the bean, fighting and taming the dragon of 7 heads!
 - Thanks to Bleuhazenfurfle for implementing llQueueSound
 - Thanks to Qie Niangao for the victory declaration
+- Thanks to Darleene99 for notecard validation
+- Thanks to 420vapinalldaycutie69 for idk developing his own thing different to the main branch and making it public aswell
+
 
 ## Next Steps
 
@@ -49,12 +52,14 @@ There are a few additional features and improvements planned for the future:
 - Needs song time calculation count time 👍 👍 👍 11/04/24
 - Added llsettext for playing or stopping songs 👍 👍 👍 07/02/24
 - New Fix "hacks" working in no-script places aswell 👍 👍 👍 31/12/23
-- Add loop/play all songs function
+- Add loop/play all songs function almost 15/05/24 ~
+- Created vanillas buttons sound controler and random play
+- In process "hold" for public private
 - Add particles on start (beauty)👍 👍 👍 fixed 06/02/24
 - Add randomizer of channels 👍 👍 👍 fixed 04/02/24
 - Implement a Bigger LLdialog menu  👍 👍 👍 12/02/24 it was there actually
 - idk the bug and that notecard justify.. 👍 👍 👍 09/05/24
-- Create sorting list of categories instead of exhaustive paging as neppingway described
+- Create sorting list of categories instead of exhaustive paging as neppingway described Still not yet like in fortever
 
 ## License
 
