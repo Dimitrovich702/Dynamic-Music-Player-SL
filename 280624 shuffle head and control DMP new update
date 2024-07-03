@@ -615,10 +615,7 @@ llSay(0, " Volume " +(string)V);
             else
             {
                 Debug("Finished: "+Name);
-      SoundID = (integer)llFrand(llGetListLength(Names));
-      Name = llList2String(Names, SoundID);
-      StopSong();
-      LoadSong();
+ 
                 
             }
 
