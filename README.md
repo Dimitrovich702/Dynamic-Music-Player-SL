@@ -60,6 +60,7 @@ There are a few additional features and improvements planned for the future:
 - Implement a Bigger LLdialog menu  👍 👍 👍 12/02/24 it was there actually
 - idk the bug and that notecard justify.. 👍 👍 👍 09/05/24
 - Create sorting list of categories instead of exhaustive paging as neppingway described Still not yet like in fortever
+- Friends list access 
 
 ## License
 
