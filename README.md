@@ -74,4 +74,4 @@ Create a script copy paste the Dynamic Music Player and enjoy
 
 #
 so long donated 568.1~ USD 
-https://www.paypal.com/paypalme/DeathVortexDV
+https://www.paypal.com/paypalme/DeathVortexDV](https://www.paypal.com/donate?campaign_id=9N2AWAMZQURRQ
